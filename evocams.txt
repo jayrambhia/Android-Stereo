@@ -1,0 +1,9 @@
+[02:27] <jayrambhia> anyone used Evo v 4G (android phone with two back cameras) using OpenCV4Android? need some help. Can't figure out how to use both the back cameras simultaneously or one at a time. I can access only one of the back cameras and front camera
+[02:30] <HD_Mouse> hey jayrambhia, i saw your post on answers.opencv.org, do you think it could be a hardware limitation?
+[02:31] <jayrambhia> HD_Mouse, I don't think so. http://stackoverflow.com/questions/12966858/how-to-split-the-left-and-right-camera-images-htc-evo-3d-in-the-camera-preview This guy commented that he did it
+[02:31] <jayrambhia> and also one guy said he was successful in using both cams on OpenCV-Android google group (which is closed now)
+[02:33] <jayrambhia> https://groups.google.com/forum/#!msg/android-opencv/Pesx1BqklA8/9KXMCejZomwJ
+[02:38] <HD_Mouse> hm, instead of using OpenCV4Android, have you tried just using the android API directly?
+[02:40] <jayrambhia> HD_Mouse, not yet. I was looking into OpenCV only. I'll wait for couple more days and try to find something. And then I'll move on to android API.
+[02:43] <HD_Mouse> it seems like whiteast used the android sdk to access the camera data, then opencv4android to convert the images from yuv to rgb
+[02:45] <jayrambhia> HD_Mouse, oh! I didn't get that part of the comment exactly. Thanks. I'll try it out.
